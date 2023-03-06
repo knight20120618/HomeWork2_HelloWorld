@@ -24,5 +24,16 @@ namespace HomeWork2_HelloWorld
         {
             InitializeComponent();
         }
+
+        private void BtnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "Hello World!";
+            //要這個「txtShow」輸入文字框顯示一段文字「Hello World!」
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            //更新完visual studio需要這行才跑得動
+        }
     }
 }
